@@ -1,0 +1,11 @@
+.face_img {
+    width: 100px;
+    height: 100px;
+}
+
+#show_face_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}

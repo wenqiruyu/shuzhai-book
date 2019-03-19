@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<title>注册用户</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/register.css}">
+    <!-- 使用百度的cdn -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script th:src="@{/js/register.js}"></script>
+</head>
+<body class="register">
+	<div class="register_title">
+		<span style="">让阅读成为习惯</span>
+	</div>
+	<div class="register_center">
+		<div class="form_title">
+			<span>
+				<strong style="font-size: 18px;">注册账号</strong>
+			</span>
+		</div>
+		<div class="form_msg">
+			<span id="show_msg"></span>
+		</div>
+		<div class="center_form">
+			<form method="post">
+				<div class="form_name">
+					<input type="text" name="name" id="name" placeholder="  请输入注册用户名">
+					<br />
+					<span style="display: none;" id="remind_name">·由3-15个汉字、字母、数字或字符组成</span>
+					<span style="display: none;" id="verify_name">·用户名已存在</span>
+				</div>
+				<div class="form_pwd">
+					<input type="password" name="password" id="password" placeholder="  请输入密码">
+					<br />
+					<span style="display: none;" id="remind_pwd">·密码为6-15个字符，可由字母、数字及符号组成</span>
+				</div>
+				<div class="form_num">
+					<input type="text" name="number" id="number" placeholder="  请输入手机号">
+					<br />
+					<span style="display: none;" id="remind_num">·手机号可用于登录、找回密码，请使用常用手机号</span>
+				</div>
+				<div class="form_verify">
+					<input type="text" name="verify" id="verify" placeholder="  请输入验证码">
+					<button type="button" id="form_verify_button" disabled="disabled">获取验证码</button>
+					<br />
+					<span style="display: none;" id="remind_verify">·验证码已发送到您的手机，15分钟内有效</span>
+				</div>
+				<div class="form_submit">
+					<input type="submit" id="form_submit" value="注册">
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="register_foot">
+		<span>这是尾部</span>
+	</div>
+</body>
+</html>

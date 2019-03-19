@@ -1,0 +1,78 @@
+input{
+    border:1px solid transparent;
+    width: 215px;
+    height: 35px;
+}
+
+span{
+    margin-left: 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+.register_title{
+    padding-top: 30px;
+    padding-left: 350px;
+	height: 70px;
+}
+
+.register_title span{
+    font-size: 25px;
+}
+ 
+.register_center {
+	margin-left: -8px;
+	width: 1519px;
+	height: 570px;
+	background: url("../img/backimg.jpg");
+}
+
+.register_foot{
+	height: 100px;
+}
+
+.center_form {
+	width: 350px;
+	height: 300px;
+	margin-left: 625px;
+}
+
+.form_title{
+    padding-top: 30px;
+	height: 65px;
+	margin-left: 670px;
+}
+
+.form_msg{
+	padding-left: 620px;
+}
+
+.form_name{
+	height: 65px;
+}
+
+.form_pwd{
+	height: 65px;
+}
+
+.form_num{
+	height: 65px;
+}
+
+.form_verify{
+	height: 65px;
+}
+
+.form_submit{
+	height: 60px;
+}
+
+#form_verify_button {
+	height: 40px;
+	width: 105px;
+}
+
+#form_submit{
+	width: 220px;
+	height: 35px;
+}

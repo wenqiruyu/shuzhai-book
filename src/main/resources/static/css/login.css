@@ -1,0 +1,49 @@
+input{
+    border:1px solid transparent;
+    width: 215px;
+    height: 35px;
+}
+.login_title{
+    padding-top: 30px;
+    padding-left: 350px;
+    height: 70px;
+}
+.login_title span{
+    font-size: 25px;
+}
+.login_center{
+    margin-left: -8px;
+    width: 1519px;
+    height: 570px;
+    background: url("../img/backimg.jpg");
+}
+.center_form{
+    width: 350px;
+    height: 300px;
+    margin-left: 625px;
+    padding-top: 30px;
+}
+.center_title{
+    padding-top: 70px;
+    margin-left: 690px;
+}
+.center_title p{
+    font-size: 18px;
+    color: gray;
+}
+.login_foot{
+    height: 100px;
+}
+.form_name{
+    height: 65px;
+}
+.form_pwd{
+    height: 65px;
+}
+.form_submit{
+    height: 65px;
+    padding-top: 10px;
+}
+.form_submit input{
+    width: 219px;
+}

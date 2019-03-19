@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 使用百度的cdn -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+
+<script>
+    $(function(){
+        $.ajax({
+            url:"/getHot",
+            async:true,
+            type:"GET",
+            dataType:"text",
+            success:function(data){
+                alert(data);
+            }
+        })
+    })
+</script>
+</body>
+</html>

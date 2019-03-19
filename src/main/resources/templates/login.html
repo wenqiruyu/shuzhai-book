@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<title>用户登录</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/login.css}">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" th:src="@{/js/login.js}"></script>
+</head>
+<body>
+    <div class="login_title">
+        <span>让阅读成为习惯</span>
+    </div>
+    <div class="login_center">
+        <div class="center_title">
+            <p><strong>登  录</strong></p>
+        </div>
+        <div class="center_msg">
+            <span id="form_msg"></span>
+        </div>
+        <div class="center_form">
+            <form method="post">
+                <div class="form_name">
+                    <input type="text" name="name" id="name" placeholder="请输入用户名">
+                </div>
+                <div class="form_pwd">
+                    <input type="password" name="password" id="password" placeholder="请输入密码">
+                </div>
+                <div class="form_submit">
+                    <input type="submit" id="submit" value="登录">
+                </div>
+                <div>
+                    <span><a href="/toRegister">没有账号？免费注册</a></span>
+                </div>
+            </form> 
+        </div>
+    </div>
+	<div class="login_foot">
+        <span>这是尾部</span>   
+    </div>
+</body>
+</html>
